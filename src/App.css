@@ -1,8 +1,84 @@
-body {
-  background-color: lightgray;
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-.app-wrapper{
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+  background-color: lightgray;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+.app-wrapper {
   display: grid;
   max-width: 1200px;
   min-height: 100%;
@@ -10,74 +86,12 @@ body {
 
   grid-template-areas:
   "h h"
-  "n c";
+  "n p";
   grid-template-rows: 40px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 
 }
 
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  grid-area: h;
-  background-color: honeydew;
 
-}
-
-
-.header-logo-img {
-  display: inline-block;
-  padding: 5px 0px 0px 5px;
-  width: 30px;
-}
-
-.nav {
-  grid-area: n;
-  margin-left: 10px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0px 0px 22px -12px #000000;
-
-}
-
-nav div {
-  margin: 7px 7px 7px 7px;
-}
-
-nav div a{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  min-height: 30px;
-  line-height: 30px;
-  border-radius: 10px;
-
-  text-decoration: none;
-  color: black;
-}
-
-nav div a:hover{
-  background-color: lightgray;
-  color: black;
-}
-
-.content {
-  grid-area: c;
-  margin-right: 10px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0px 0px 22px -12px #000000;
-}
-
-.content-head-img {
-  margin: 10px 10px 10px 10px;
-  border-radius: 5px;
-  height: 200px;
-  background: url("https://st.depositphotos.com/1010463/1468/i/600/depositphotos_14687809-stock-photo-sunny-forest-panorama.jpg") no-repeat 0 0;
-  background-size: 100% 100%;
-}
 

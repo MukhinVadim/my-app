@@ -1,0 +1,40 @@
+.container {
+    margin-top: 20px;
+    padding: 15px;
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.ava {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.text {
+    display: inline-block;
+    width: 500px;
+    margin-left: 30px;
+}
+.like {
+    display: inline-block;
+    padding: 0px 10px;
+    width: 70px;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+    margin-left: 500px;
+
+}
+
+.like span {
+    display: inline-block;
+    padding-right: 20px;
+    background: url("https://avatanplus.com/files/resources/original/572b1a71cf7da154805f4cba.png") right no-repeat;
+    background-size: 15px 15px;
+}

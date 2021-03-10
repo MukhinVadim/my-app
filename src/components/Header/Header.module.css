@@ -1,0 +1,15 @@
+.head {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    grid-area: h;
+    background-color: honeydew;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+}
