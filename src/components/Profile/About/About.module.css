@@ -1,8 +1,40 @@
 
 .container {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 22px -12px #000000;
     background-color: white;
 }
 
+.wallpaper {
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    background: url("https://st.depositphotos.com/1010463/1468/i/600/depositphotos_14687809-stock-photo-sunny-forest-panorama.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+}
 
+.info {
+    padding: 20px 20px 20px 30px;
+}
+
+.name {
+    padding-top: 20px;
+    display: block;
+    font-size: 25px;
+}
+
+.about {
+    padding: 10px 0px 20px 0px;
+}
+
+.ava {
+    margin-top: -150px;
+}
+
+.ava img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

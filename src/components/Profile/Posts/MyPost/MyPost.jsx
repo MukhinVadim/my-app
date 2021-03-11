@@ -11,7 +11,7 @@ const MyPost = () => {
             <div className={s.content_form}>
                 <form name="post">
                     <textarea name="mypost"/>
-                    <input type="submit" value="SEND"/>
+                    <button>Add post</button>
                 </form>
             </div>
         </div>

@@ -8,10 +8,8 @@ const Posts = () => {
     return (
         <div className={s.container}>
             <MyPost/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post massage="Hi, how are u?"/>
+            <Post massage="Let's go!!"/>
         </div>
     );
 }

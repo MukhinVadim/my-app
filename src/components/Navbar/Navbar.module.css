@@ -3,7 +3,7 @@
     grid-area: n;
     margin-left: 10px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 22px -12px #000000;
 }
 
@@ -27,4 +27,9 @@
 .link:hover {
     background-color: lightgray;
     color: black;
+}
+
+.link.active {
+    border: 1px solid gray;
+    border-radius: 10px;
 }

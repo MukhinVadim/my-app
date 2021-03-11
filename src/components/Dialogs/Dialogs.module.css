@@ -1,0 +1,26 @@
+.container {
+    padding: 20px 20px 20px 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 22px -12px #000000;
+}
+
+.dialogs {
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.directory {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.directory li {
+    padding: 0 0 30px 20px;
+}
+
+NavLink.active {
+    background: url("https://e7.pngegg.com/pngimages/886/963/png-clipart-check-mark-computer-icons-wrong-miscellaneous-angle-thumbnail.png") no-repeat left;
+
+}
