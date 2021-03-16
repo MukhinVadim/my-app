@@ -26,7 +26,6 @@
 
 .link:hover {
     background-color: lightgray;
-    color: black;
 }
 
 .link.active {

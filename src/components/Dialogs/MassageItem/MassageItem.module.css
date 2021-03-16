@@ -1,0 +1,13 @@
+.message {
+
+}
+
+.message span {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid lightgrey;
+    background-color: lightcyan;
+    border-radius: 5px;
+
+}

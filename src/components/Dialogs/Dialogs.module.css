@@ -1,26 +1,50 @@
 .container {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    grid-template-areas:
+    "h h"
+    ;
+
+    max-width: 950px;
     padding: 20px 20px 20px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0px 0px 22px -12px #000000;
 }
 
-.dialogs {
-    display: block;
+.container h1 {
+    grid-area: h;
     font-size: 25px;
     text-transform: uppercase;
 }
 
-.directory {
-    margin-top: 30px;
-    display: inline-block;
+.dialogs {
+    margin-top: 20px;
 }
 
-.directory li {
-    padding: 0 0 30px 20px;
+.messagesArea {
+    padding: 20px;
 }
 
-NavLink.active {
-    background: url("https://e7.pngegg.com/pngimages/886/963/png-clipart-check-mark-computer-icons-wrong-miscellaneous-angle-thumbnail.png") no-repeat left;
+.messages {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
 
+.input {
+    margin-top: 100px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
 }

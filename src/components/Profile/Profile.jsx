@@ -4,11 +4,12 @@ import s from "./Profile.module.css";
 import About from "./About/About";
 import Posts from "./Posts/Posts";
 
-const Profile = () => {
+
+const Profile = (props) => {
     return (
         <div>
-            <About></About>
-            <Posts></Posts>
+            <About/>
+            <Posts posts={props.state.posts} addPost={props.addPost}/>
         </div>
     );
 }

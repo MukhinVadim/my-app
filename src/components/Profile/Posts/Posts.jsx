@@ -4,12 +4,14 @@ import MyPost from "./MyPost/MyPost";
 import Post from "./Post/Post";
 
 
-const Posts = () => {
+const Posts = (props) => {
+
+    let postElement = props.posts.map(m => <Post id={m.id} message={m.message} likesCount={m.likesCount}/>)
+
     return (
         <div className={s.container}>
-            <MyPost/>
-            <Post massage="Hi, how are u?"/>
-            <Post massage="Let's go!!"/>
+            <MyPost addPost={props.addPost}/>
+            {postElement}
         </div>
     );
 }
